@@ -67,16 +67,14 @@ main {
     border: 3px dashed black;
     width: 100%;
     padding: 20px 20px;
-
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
-#aboutMe pre{
 
-}
 #mainProject {
     border: 3px dashed black;
     width: 100%;
     padding: 0 20px;
-    /* margin: 10px 0; */
 }
 .projects {
     border: 3px dashed black;
@@ -84,16 +82,26 @@ main {
     padding: 0 20px;
     margin: 50px 0;
 }
+#aboutMe > h3 {
+    font-size: 30px;
+}
+#work > h3 {
+    font-size: 30px;
+    border: none;
+    margin-top: 40px;
+}
+
 main h3 {
     border: 3px solid black;
     text-align: center;
-    /* width: 95%; */
     margin: 0 auto;
     position: relative;
     top: -15px;
     border-radius: 10px;
     background: white;
 }
+
+
 #mainProject img, .projects img {
     max-width: 100%;
     max-height: 100%;
@@ -104,13 +112,23 @@ pre {
     text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap;
+    white-space: wrap;
+}
+#aboutMe pre {
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre-wrap;
+    font-size: 25px;
 }
 footer {
     margin-top: auto;
     font-size: 20px;
     border: 3px solid black;
 }
+
+
+
 /* Tablets*/
 @media screen and (max-width: 992px) {
       header {
