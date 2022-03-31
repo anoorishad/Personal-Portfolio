@@ -18,3 +18,8 @@ Web page built from scratch to showcase samples of personal projects to potentia
 The following screenshot shows the web application's appearance
 ![portfolio-screenshot](assets/images/portfolio-screenshot.png)
 
+
+
+## URL
+
+https://anoorishad.github.io/Personal-Portfolio/
