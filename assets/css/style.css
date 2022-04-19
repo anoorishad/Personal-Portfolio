@@ -76,6 +76,9 @@ main {
     width: 100%;
     padding: 0 20px;
 }
+.mainProjectPic img {
+  object-fit: cover;
+}
 .projects {
     border: 3px dashed black;
     width: 45%;
@@ -107,6 +110,7 @@ main h3 {
     max-height: 100%;
     margin: 0 auto;
     display: block;
+    object-fit: cover;
 }
 pre {
     text-align: center;
@@ -127,6 +131,24 @@ footer {
     border: 3px solid black;
 }
 
+.footerTitle {
+  padding: 10px;
+  text-align: center;
+}
+.footerContainer address {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerContainer address a {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 2%;
+  display: inline-block;
+
+}
 
 
 /* Tablets*/
